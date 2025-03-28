@@ -1,10 +1,10 @@
-pip install wordcloud
-pip install langdetect
-pip install pandas
-pip install nltk
-pip install spacy
-pip install contractions
-pip install matplotlib
-pip install numpy
-pip install scikit-learn
-pip install xgboost
+wordcloud
+langdetect
+pandas
+nltk
+spacy
+contractions
+matplotlib
+numpy
+scikit-learn
+xgboost

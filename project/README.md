@@ -12,4 +12,4 @@
 
 Dataset used: [Consumer Complaints](https://www.kaggle.com/datasets/namigabbasov/consumer-complaint-dataset)
 
-To run this project, run the commands in `requirements.txt`, download the dataset to the root directory of the project, and then run the different notebooks to see the results! Note: you should run the `preprocessing` notebook before running `train_and_test`.
+To run this project, install the pip libraries in `requirements.txt`, download the dataset to the root directory of the project, and then run the different notebooks to see the results! Note: you should run the `preprocessing` notebook before running `train_and_test`.
