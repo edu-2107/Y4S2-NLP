@@ -42,8 +42,14 @@ def run_model(model_checkpoint):
 
 
     def preprocess(batch):
-        texts = [str(x) if x is not None else "" for x in batch["narrative"]]
+        # Prompting style input
+        texts = [
+            f"Classify the type of complaint from the following narrative: '{n}'"
+            if n is not None else "Classify the type of complaint from the following narrative: ''"
+            for n in batch["narrative"]
+        ]
         return tokenizer(texts, truncation=True, padding="max_length", max_length=128)
+
 
 
     # Apply preprocessing and add labels
